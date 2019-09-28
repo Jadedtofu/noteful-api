@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS blogful_notes;
+DROP TABLE IF EXISTS noteful_notes;

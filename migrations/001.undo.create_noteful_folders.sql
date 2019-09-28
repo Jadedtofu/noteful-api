@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS blogful_folders;
+DROP TABLE IF EXISTS noteful_folders;
