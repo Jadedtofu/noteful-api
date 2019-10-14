@@ -26,6 +26,10 @@ app.get('/', (req, res) => {
     res.send('Hey there!');
 });
 
+app.get('/silly', (req, res) => {
+    res.send('This is silly')
+});
+
 app.use(function errorHandler(error, req, res, next) {
     let response;
     // if (process.env.NODE_ENV === 'production') {
