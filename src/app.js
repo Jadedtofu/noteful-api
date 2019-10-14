@@ -23,7 +23,11 @@ app.use('/api/folders', foldersRouter);
 app.use('/api/notes', notesRouter);
 
 app.get('/', (req, res) => {
-    res.send('Hello, world!');
+    res.send('Hey there!');
+});
+
+app.get('/silly', (req, res) => {
+    res.send('This is silly')
 });
 
 app.use(function errorHandler(error, req, res, next) {
